@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Big belly</title>
+    <link
+      href="https://cdn.boxicons.com/fonts/basic/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles/app.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container header">
+        <a href="./home.html"><img src="./assets/logo.webp" class="logo" /></a>
+
+        <nav>
+          <ul>
+            <li><a href="./home.html">Trang chủ</a></li>
+            <li><a href="./product.html">Sản phẩm</a></li>
+            <li><a href="#">Thông tin ưu đãi</a></li>
+            <li><a href="#">Tin tức</a></li>
+            <li><a href="#">Thông tin cửa hàng</a></li>
+            <li>
+              <a href="./contact.html" class="active-menu">Thông tin liên hệ</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="icons">
+          <i class="bx bx-search"></i>
+          <i class="bx bx-cart"></i>
+
+          <div class="menu-container">
+            <i class="bx bx-menu"></i>
+
+            <!-- Menu sổ xuống khi hover -->
+            <div class="dropdown-menu">
+              <a href="./login.html" class="dropdown-btn">Đăng nhập</a>
+              <a href="./register.html" class="dropdown-btn">Đăng ký</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <img src="./assets/slideshow_1.jpg" alt="banner" style="width: 100%" />
+      <section class="contact-section" style="margin-top: -3.9px">
+        <div class="contact-container container">
+          <div class="contact-left">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.4700154173463!2d106.70042407585373!3d10.774942959206634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ef8b56ef8ab%3A0x4cda3659d2149c56!2zMjAgVHLhuqVuIENhbyBWw6JuLCDEkOG6oWsgS2FvLCBRdeG6o25nIDEsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVMOibiBI4buTIENow60!5e0!3m2!1svi!2s!4v1719652369996"
+              width="100%"
+              height="100%"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
+
+          <div class="contact-right">
+            <div class="store-info">
+              <h2>Thông tin cửa hàng</h2>
+              <p><strong>Địa chỉ:</strong> 20 Trần Cao Vân, Quận 1, TP. HCM</p>
+              <p><strong>Điện thoại:</strong> 0903 793 625</p>
+              <p><strong>Email:</strong> support@bigbelly.vn</p>
+            </div>
+
+            <form class="contact-form">
+              <input type="text" placeholder="Họ và tên" required />
+              <input type="email" placeholder="Email" required />
+              <input type="tel" placeholder="Số điện thoại" required />
+              <textarea
+                rows="4"
+                placeholder="Nội dung liên hệ"
+                required
+              ></textarea>
+              <button type="submit">Gửi liên hệ</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-overlay">
+        <div class="container">
+          <div class="footer-grid">
+            <!-- Cột 1: Thông tin -->
+            <div class="footer-col">
+              <h4>THÔNG TIN</h4>
+              <img
+                src="./assets/logo.webp"
+                alt="Big Belly"
+                class="footer-logo"
+              />
+              <p>
+                Số 20-20B Trần Cao Vân, phường Đa Kao, quận 1, TP. HCM Giấy
+                chứng nhận đăng ký kinh doanh số 0316814767 do Sở Kế hoạch và
+                Đầu tư Thành phố Hồ Chí Minh cấp lần đầu vào ngày 19 tháng 04
+                năm 202
+              </p>
+              <p>ĐT: 0903 793 625</p>
+              <p>Email: support@bigbelly.vn</p>
+              <img
+                src="./assets/dathongbao.webp"
+                alt="Bộ công thương"
+                class="gov-badge"
+              />
+            </div>
+
+            <!-- Cột 2: Hỗ trợ -->
+            <div class="footer-col">
+              <h4>HỖ TRỢ</h4>
+              <ul>
+                <li>➻ Đặt hàng ngay</li>
+                <li>➻ Thông tin giao hàng</li>
+              </ul>
+            </div>
+
+            <!-- Cột 3: Hướng dẫn -->
+            <div class="footer-col">
+              <h4>HƯỚNG DẪN</h4>
+              <ul>
+                <li>➻ Chính sách đổi trả</li>
+                <li>➻ Chính sách bảo mật</li>
+                <li>➻ Điều khoản dịch vụ</li>
+                <li>➻ Tìm kiếm</li>
+              </ul>
+            </div>
+
+            <!-- Cột 4: Đăng ký bản tin -->
+            <div class="footer-col">
+              <h4>ĐĂNG KÝ BẢN TIN</h4>
+              <p>Để cập nhật các thông tin mới nhất từ Big Belly!</p>
+              <form class="newsletter-form">
+                <input type="email" placeholder="Nhập email của bạn..." />
+                <button type="submit">ĐĂNG KÝ</button>
+              </form>
+              <div class="social-icons">
+                <a href="#"><i class="bx bxl-facebook"></i></a>
+                <a href="#"><i class="bx bxl-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="footer-bottom">© Bản quyền thuộc về Big Belly.</div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

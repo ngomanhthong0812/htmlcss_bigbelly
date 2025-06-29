@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Big belly</title>
+    <link
+      href="https://cdn.boxicons.com/fonts/basic/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles/app.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container header">
+        <a href="./home.html"><img src="./assets/logo.webp" class="logo" /></a>
+
+        <nav>
+          <ul>
+            <li><a href="./home.html">Trang chủ</a></li>
+            <li><a href="./product.html">Sản phẩm</a></li>
+            <li><a href="#">Thông tin ưu đãi</a></li>
+            <li><a href="#">Tin tức</a></li>
+            <li><a href="#">Thông tin cửa hàng</a></li>
+            <li><a href="./contact.html">Thông tin liên hệ</a></li>
+          </ul>
+        </nav>
+
+        <div class="icons">
+          <i class="bx bx-search"></i>
+          <i class="bx bx-cart"></i>
+
+          <div class="menu-container">
+            <i class="bx bx-menu"></i>
+
+            <!-- Menu sổ xuống khi hover -->
+            <div class="dropdown-menu">
+              <a href="./login.html" class="dropdown-btn">Đăng nhập</a>
+              <a href="./register.html" class="dropdown-btn">Đăng ký</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <nav class="breadcrumb">
+        <div class="container">
+          <a href="./home.html">Trang chủ</a>
+          <span class="separator">›</span>
+          <a href="./product.html">BÁN CHẠY</a>
+          <span class="separator">›</span>
+          <span class="current">Bánh Mì Que Pate Chà Bông Cay</span>
+        </div>
+      </nav>
+      <div class="container" style="padding-bottom: 40px; padding-top: 40px">
+        <div class="product-detail">
+          <!-- Cột trái: ảnh sản phẩm -->
+          <div class="left">
+            <img
+              src="./assets/banh_mi_que_cha_bong_c3cbcfa8465c4d43a248451e0b825769_1024x1024.webp"
+              alt="Bánh mì"
+              style="width: 100%"
+            />
+          </div>
+
+          <!-- Cột phải: thông tin và tuỳ chọn món -->
+          <div class="right">
+            <h2 class="product-title">Bánh Mì Que Pate Chà Bông Cay</h2>
+            <p class="sku">SKU: 10103004</p>
+            <p class="price">12,000<sup>₫</sup></p>
+
+            <div class="option-group">
+              <label><input type="checkbox" checked /> Phần 01 Ổ</label>
+            </div>
+
+            <div class="toppings">
+              <label><input type="checkbox" checked /> Không thêm món</label>
+              <label><input type="checkbox" /> Xíu Mại Thêm</label>
+              <label><input type="checkbox" /> Thịt Khìa Thêm</label>
+              <label><input type="checkbox" /> Bò Sa Tế Thêm</label>
+              <label><input type="checkbox" disabled /> Gà Xíu Thêm</label>
+            </div>
+
+            <div class="quantity">
+              <input type="number" min="1" value="1" />
+            </div>
+
+            <input
+              type="text"
+              class="note"
+              placeholder="🖊️ Thêm ghi chú món này"
+            />
+
+            <button class="order-btn">ĐẶT MÓN</button>
+
+            <div class="description">
+              <h4>Mô tả</h4>
+              <p><strong>Dùng ngay khi nhận món nhé khách ơi!</strong></p>
+              <p style="font-style: italic; color: #888">
+                (Hình ảnh sản phẩm mang tính chất minh họa với mong muốn giúp
+                khách hàng cảm nhận rõ hơn về món)
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <h1
+          style="
+            font-size: 26px;
+            margin-top: 40px;
+            color: rgb(61, 61, 61);
+            text-align: center;
+          "
+        >
+          SẢN PHẨM LIÊN QUAN
+        </h1>
+
+        <div
+          class="product-all"
+          style="width: 100%; grid-template-columns: repeat(4, 1fr)"
+        >
+          <a class="product-card" href="detail.html">
+            <div class="product-img">
+              <img
+                src="./assets/cocoxim_dua_202fd603b6b14b63a5c469b36cae562b_1024x1024.webp"
+                alt="Dừa Xiêm Xanh"
+              />
+            </div>
+            <div class="product-info">
+              <h3 class="product-name">Dừa Xiêm Xanh</h3>
+              <div class="product-bottom">
+                <span class="product-price">15,000₫</span>
+                <button class="order-btn">Đặt món</button>
+              </div>
+            </div>
+          </a>
+          <a class="product-card" href="detail.html">
+            <div class="product-img">
+              <img
+                src="./assets/cocoxim_dua_202fd603b6b14b63a5c469b36cae562b_1024x1024.webp"
+                alt="Dừa Xiêm Xanh"
+              />
+            </div>
+            <div class="product-info">
+              <h3 class="product-name">Dừa Xiêm Tắc</h3>
+              <div class="product-bottom">
+                <span class="product-price">15,000₫</span>
+                <button class="order-btn">Đặt món</button>
+              </div>
+            </div>
+          </a>
+          <a class="product-card" href="detail.html">
+            <div class="product-img">
+              <img
+                src="./assets/cocoxim_dua_202fd603b6b14b63a5c469b36cae562b_1024x1024.webp"
+                alt="Dừa Xiêm Xanh"
+              />
+            </div>
+            <div class="product-info">
+              <h3 class="product-name">Dừa Xiêm Sen</h3>
+              <div class="product-bottom">
+                <span class="product-price">15,000₫</span>
+                <button class="order-btn">Đặt món</button>
+              </div>
+            </div>
+          </a>
+          <a class="product-card" href="detail.html">
+            <div class="product-img">
+              <img
+                src="./assets/combo_3_a451e1754ba847cca71f15d771e76a6d_1024x1024.webp"
+                alt="Dừa Xiêm Xanh"
+              />
+            </div>
+            <div class="product-info">
+              <h3 class="product-name">COMBO 03</h3>
+              <div class="product-bottom">
+                <span class="product-price">39,000₫</span>
+                <button class="order-btn">Đặt món</button>
+              </div>
+            </div>
+          </a>
+          <a class="product-card" href="detail.html">
+            <div class="product-img">
+              <img
+                src="./assets/corn_21_9c90b2f54d8e47c580d75d01cc98d86d_1024x1024.webp"
+                alt="Dừa Xiêm Xanh"
+              />
+            </div>
+            <div class="product-info">
+              <h3 class="product-name">Bánh Mì Bò Sa Tế</h3>
+              <div class="product-bottom">
+                <span class="product-price">35,000₫</span>
+                <button class="order-btn">Đặt món</button>
+              </div>
+            </div>
+          </a>
+          <a class="product-card" href="detail.html">
+            <div class="product-img">
+              <img
+                src="./assets/corn_21_9c90b2f54d8e47c580d75d01cc98d86d_1024x1024.webp"
+                alt="Dừa Xiêm Xanh"
+              />
+            </div>
+            <div class="product-info">
+              <h3 class="product-name">Bánh Mì Bò Sa Tế</h3>
+              <div class="product-bottom">
+                <span class="product-price">35,000₫</span>
+                <button class="order-btn">Đặt món</button>
+              </div>
+            </div>
+          </a>
+          <a class="product-card" href="detail.html">
+            <div class="product-img">
+              <img
+                src="./assets/corn_21_9c90b2f54d8e47c580d75d01cc98d86d_1024x1024.webp"
+                alt="Dừa Xiêm Xanh"
+              />
+            </div>
+            <div class="product-info">
+              <h3 class="product-name">Bánh Mì Bò Sa Tế</h3>
+              <div class="product-bottom">
+                <span class="product-price">35,000₫</span>
+                <button class="order-btn">Đặt món</button>
+              </div>
+            </div>
+          </a>
+          <a class="product-card" href="detail.html">
+            <div class="product-img">
+              <img
+                src="./assets/corn_21_9c90b2f54d8e47c580d75d01cc98d86d_1024x1024.webp"
+                alt="Dừa Xiêm Xanh"
+              />
+            </div>
+            <div class="product-info">
+              <h3 class="product-name">Bánh Mì Bò Sa Tế</h3>
+              <div class="product-bottom">
+                <span class="product-price">35,000₫</span>
+                <button class="order-btn">Đặt món</button>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-overlay">
+        <div class="container">
+          <div class="footer-grid">
+            <!-- Cột 1: Thông tin -->
+            <div class="footer-col">
+              <h4>THÔNG TIN</h4>
+              <img
+                src="./assets/logo.webp"
+                alt="Big Belly"
+                class="footer-logo"
+              />
+              <p>
+                Số 20-20B Trần Cao Vân, phường Đa Kao, quận 1, TP. HCM Giấy
+                chứng nhận đăng ký kinh doanh số 0316814767 do Sở Kế hoạch và
+                Đầu tư Thành phố Hồ Chí Minh cấp lần đầu vào ngày 19 tháng 04
+                năm 202
+              </p>
+              <p>ĐT: 0903 793 625</p>
+              <p>Email: support@bigbelly.vn</p>
+              <img
+                src="./assets/dathongbao.webp"
+                alt="Bộ công thương"
+                class="gov-badge"
+              />
+            </div>
+
+            <!-- Cột 2: Hỗ trợ -->
+            <div class="footer-col">
+              <h4>HỖ TRỢ</h4>
+              <ul>
+                <li>➻ Đặt hàng ngay</li>
+                <li>➻ Thông tin giao hàng</li>
+              </ul>
+            </div>
+
+            <!-- Cột 3: Hướng dẫn -->
+            <div class="footer-col">
+              <h4>HƯỚNG DẪN</h4>
+              <ul>
+                <li>➻ Chính sách đổi trả</li>
+                <li>➻ Chính sách bảo mật</li>
+                <li>➻ Điều khoản dịch vụ</li>
+                <li>➻ Tìm kiếm</li>
+              </ul>
+            </div>
+
+            <!-- Cột 4: Đăng ký bản tin -->
+            <div class="footer-col">
+              <h4>ĐĂNG KÝ BẢN TIN</h4>
+              <p>Để cập nhật các thông tin mới nhất từ Big Belly!</p>
+              <form class="newsletter-form">
+                <input type="email" placeholder="Nhập email của bạn..." />
+                <button type="submit">ĐĂNG KÝ</button>
+              </form>
+              <div class="social-icons">
+                <a href="#"><i class="bx bxl-facebook"></i></a>
+                <a href="#"><i class="bx bxl-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="footer-bottom">© Bản quyền thuộc về Big Belly.</div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
